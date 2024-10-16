@@ -27,7 +27,7 @@ const Header = () => {
                 <div className="hidden lg:flex items-center space-x-3 ms-5">
                     {navigation.map((nav, index) => {
                         return (
-                            <div>
+                            <div key={nav.href}>
                                 <NavLink
                                     key={nav.label} to={nav.href}
                                     className={({ isActive }) => `px-2 hover:text-neutral-50 ${isActive && "text-neutral-50"}`}
