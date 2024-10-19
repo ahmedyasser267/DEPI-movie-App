@@ -1,8 +1,7 @@
-# React + Vite
+# Build and Deploy movie app with React & Redux | Mobile Responsive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Alt text](thumnail.png?raw=true "Title")
 
-Currently, two official plugins are available:
+REACT_APP_ACCESS_TOKEN = < The Movie Database Access Token >
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Image : https://drive.google.com/drive/folders/17fx2Gwpq3VzzYd0ToZI9bK1go2hVKXfr?usp=sharing
