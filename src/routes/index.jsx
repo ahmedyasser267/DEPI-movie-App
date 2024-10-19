@@ -7,27 +7,27 @@ import SearchPage from "../pages/SearchPage";
 
 const router = createBrowserRouter([
     {
-        path: "/",
-        element: <App />,
-        children: [
+        path : "/",
+        element : <App/>,
+        children : [
             {
-                path: "",
-                element: <Home />
+                path : "",
+                element : <Home/>
             },
             {
-                path: ":explore",
-                element: <ExplorePage />,
+                path : ":explore",
+                element : <ExplorePage/>
             },
             {
-                path: ":explore/:id",
-                element: <DetailsPage />
+                path : ":explore/:id",
+                element : <DetailsPage/>
             },
             {
-                path: "search",
-                element: <SearchPage />
+                path : "search",
+                element : <SearchPage/>
             }
         ]
     }
 ])
 
-export default router;
+export default router
